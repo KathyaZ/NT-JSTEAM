@@ -1803,3 +1803,51 @@ section {
 .services .service-item:hover .icon {
   background: #fff;
 }
+
+button {
+  cursor: pointer;
+  border-radius: 0;
+  border: none;
+  background-color: #f5cf00;
+  color: #ffffff;
+  padding: 5px 15px;
+  margin: 8px 35px 10px 35px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0px 0px 0 #fff;
+}
+
+dialog {
+  max-width: 800px;
+  padding: 20px 30px;
+  border: 0px solid rgba(0, 0, 0, 0.5);
+  background-color: #0c070be6; 
+}
+
+dialog::backdrop {
+  background: #0c070be6;
+}
+
+dialog p {
+  color: #321c3b;
+}
+
+/* Botón de cierre */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+

@@ -160,6 +160,7 @@
     }
   });
 
+
   /**
    * Preloader
    */
@@ -214,9 +215,25 @@
     })
   });
 
+var modal = document.getElementById("modal2");
+// Cerrar el modal cuando el usuario hace clic en la 'x'
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// Cerrar el modal cuando el usuario hace clic fuera del modal
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
   /**
    * Initiate Pure Counter 
-   */
+   */d
   new PureCounter();
+
+  
 
 })()
