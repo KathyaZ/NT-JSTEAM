@@ -754,7 +754,7 @@ section {
 
 .about .video-box {
   background: url("../img/Nosostros.png") center center no-repeat;
-  background-size: 140%;
+  background-size: 135%;
   min-height: 300px;
 }
 
@@ -1822,8 +1822,8 @@ button {
 
 dialog {
   max-width: 800px;
-  padding: 20px 30px;
-  border: 0px solid rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border: 0px solid #0c070be6; 
   background-color: #0c070be6; 
 }
 
